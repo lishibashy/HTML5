@@ -290,7 +290,7 @@ header #logotipo{
 
 #call-to-action .btn{
     min-width: 164px;
-    height: 44px;
+    height: 50px;
     line-height: 44px;
     border-radius: 0;
 }
@@ -311,4 +311,49 @@ header #logotipo{
 #call-to-action .row-max-400{
     margin: 0 auto;
     max-width: 400px;
+}
+
+footer{
+    margin-top: 110px;
+}
+
+footer .row{
+    width: 100%;
+}
+
+footer .row p{
+    line-height: 60px;
+    margin-bottom: 0;
+}
+
+footer .row-cinza-claro{
+    height: 200px;
+    background-color: #171F26;
+    
+}
+
+footer .row-cinza-escuro{
+    height: 60px;
+    background-color: #11171D;
+    border-top: #242D37 1px solid;
+}
+
+footer .pull-left{
+    font-family: 'OpenSans';
+    font-size: 16px;
+    color: ghostwhite;
+}
+
+footer .col-red{
+    border: red 2px solid;
+    height: 200px;
+}
+
+footer .col-yellow{
+    border: yellow 2px solid;
+    height: 200px;
+}
+
+footer .logotipo{
+    margin-top: 28px;
 }
